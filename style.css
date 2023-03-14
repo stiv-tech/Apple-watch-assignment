@@ -114,8 +114,8 @@
     font-size: 15px;
   }
   .head-img{
-    margin-top: 30%;
-    width: 50%;
+    
+    width: 80%;
   }
   .head-img-11{
     margin-bottom: 50%;
@@ -132,9 +132,14 @@
  .head-item, .head-p{
   text-align: center;
  }
- .testy{
-  margin-left: 35%;
- }
+ 
+ .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
  /* .container{
   max-height: 100vh;
  } */
